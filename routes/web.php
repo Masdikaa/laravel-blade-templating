@@ -14,5 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home', ['title' => "Halaman Home"]);
+});
+
+Route::get('/about', function () {
+    return view('about', [
+        'title' => "Halaman About",
+        'name' => 'Masdika Ilhan Mansiz',
+        'imageUrl' => 'https://avatars.githubusercontent.com/u/93296892?v=4',
+        'profesi' => 'Pria Sejati Gagah dan Berani'
+    ]);
 });
