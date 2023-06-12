@@ -18,6 +18,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Asul&family=Poppins:wght@500&display=swap" rel="stylesheet">
 
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+
     {{-- Mengambil title yang di post dari routing --}}
     <title>{{ $title }}</title>
 </head>
